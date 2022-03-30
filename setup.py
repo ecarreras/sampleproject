@@ -164,6 +164,7 @@ setup(
     entry_points={  # Optional
         "console_scripts": [
             "sample=sample:main",
+            "add_one = sample.cli:main",
         ],
     },
     # List additional URLs that are relevant to your project as a dict.
